@@ -21,8 +21,10 @@ App{
     files: [
         "db_scripts.qrc",
         "src/gtest_main.cc",
-        "src/pqxx_tests.cpp",
+        "src/pqxx_tests_database.cpp",
+        "src/pqxx_tests_query.cpp",
         "src/sqlite_tests_database.cpp",
+        "src/sqlite_tests_query.cpp",
     ]
     cpp.systemIncludePaths: [
         "/usr/src/googletest/googletest/include",

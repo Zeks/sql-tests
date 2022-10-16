@@ -77,7 +77,7 @@ TEST_F(DatabaseTestPQXX, EnsureSelectWorksForPG){
     q.prepare("select * from tests.test_table_selects");
     // 1. ensure we have a record
     // 2. ensure all individual parts of the record can be read out.
-    auto result = q.exec();
+    q.exec();
     auto fetchedNext = q.next();
     EXPECT_EQ(fetchedNext, true);
 }
