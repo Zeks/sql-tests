@@ -19,6 +19,5 @@ Run/bot_token*.ini
 Run/lib*.a
 *.qbs.user.*
 *.qbs.user
-libs/*
 Run/*
 

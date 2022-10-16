@@ -1,0 +1,3 @@
+[submodule "libs/sql"]
+	path = libs/sql
+	url = git@github.com:Zeks/sql.git
